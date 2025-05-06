@@ -26,7 +26,7 @@ const App: React.FC = () => {
                 </ProtectedRoute>
               }
             />
-            <Route path="/bookmarks" element={<Navigate to="/" replace />} />
+            {/* <Route path="/bookmarks" element={<Navigate to="/" replace />} /> */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </AuthProvider>
