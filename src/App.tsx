@@ -19,15 +19,15 @@ const App: React.FC = () => {
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignUpPage />} />
             <Route
-              path="/bookmarks"
+              path="/"
               element={
                 <ProtectedRoute>
                   <BookmarkPage />
                 </ProtectedRoute>
               }
             />
-            <Route path="/" element={<Navigate to="/bookmarks" replace />} />
-            <Route path="*" element={<Navigate to="/bookmarks" replace />} />
+            <Route path="/bookmarks" element={<Navigate to="/" replace />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </AuthProvider>
       </Router>
