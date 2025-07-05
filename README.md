@@ -116,10 +116,10 @@ yarn dev
 src/
 ├── components/     # 재사용 가능한 컴포넌트
 ├── contexts/       # React Context
-├── pages/         # 페이지 컴포넌트
-├── styles/        # 전역 스타일 및 테마
-├── types/         # TypeScript 타입 정의
-└── utils/         # 유틸리티 함수
+├── pages/          # 페이지 컴포넌트
+├── styles/         # 전역 스타일 및 테마
+├── types/          # TypeScript 타입 정의
+└── utils/          # 유틸리티 함수
 ```
 
 ## 라이선스
